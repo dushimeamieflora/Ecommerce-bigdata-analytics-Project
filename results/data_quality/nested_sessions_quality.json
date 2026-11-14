@@ -1,0 +1,47 @@
+{
+    "total_sessions_processed": 2000000,
+    "total_page_views": 10301209,
+    "sessions_with_missing_or_empty_page_views": 0,
+    "page_view_quality_by_page_type": {
+        "home": {
+            "total_page_views": 2000000,
+            "missing_product_id": 2000000,
+            "missing_category_id": 2000000,
+            "missing_timestamp": 0,
+            "missing_page_type": 0,
+            "missing_view_duration": 0
+        },
+        "category_listing": {
+            "total_page_views": 2000000,
+            "missing_product_id": 2000000,
+            "missing_category_id": 0,
+            "missing_timestamp": 0,
+            "missing_page_type": 0,
+            "missing_view_duration": 0
+        },
+        "product_detail": {
+            "total_page_views": 5001380,
+            "missing_product_id": 0,
+            "missing_category_id": 0,
+            "missing_timestamp": 0,
+            "missing_page_type": 0,
+            "missing_view_duration": 0
+        },
+        "cart": {
+            "total_page_views": 799829,
+            "missing_product_id": 799829,
+            "missing_category_id": 799829,
+            "missing_timestamp": 0,
+            "missing_page_type": 0,
+            "missing_view_duration": 0
+        },
+        "checkout": {
+            "total_page_views": 500000,
+            "missing_product_id": 500000,
+            "missing_category_id": 500000,
+            "missing_timestamp": 0,
+            "missing_page_type": 0,
+            "missing_view_duration": 0
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "dataset": "transaction_items",
+    "valid_product_count": 5000,
+    "validation_results": {
+        "invalid_item_subtotals": 0,
+        "invalid_transaction_subtotals": 0,
+        "invalid_transaction_totals": 0,
+        "total_transactions": 500000,
+        "total_items": 876001
+    }
+}

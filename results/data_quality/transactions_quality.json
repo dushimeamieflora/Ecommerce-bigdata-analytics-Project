@@ -1,0 +1,17 @@
+{
+    "dataset": "transactions",
+    "clean_records": 500000,
+    "duplicate_transaction_ids": 0,
+    "missing_values": {
+        "discount": 0,
+        "items": 0,
+        "payment_method": 0,
+        "session_id": 0,
+        "status": 0,
+        "subtotal": 0,
+        "timestamp": 0,
+        "total": 0,
+        "transaction_id": 0,
+        "user_id": 0
+    }
+}

@@ -1,0 +1,21 @@
+
+# =====================================================
+# USER BROWSING ACTIVITY QUERIES
+# Table: ecom:browsing_events
+# Row key: user_id#reverse_timestamp#event_id
+# =====================================================
+
+# 1. Retrieve the first five browsing events for a user
+scan 'ecom:browsing_events', {
+  FILTER => "PrefixFilter('user_000001#')",
+  LIMIT => 5
+}
+
+# 2. Retrieve all browsing events for a user
+scan 'ecom:browsing_events', {
+  FILTER => "PrefixFilter('user_000001#')"
+}
+
+# 3. Retrieve one specific browsing event
+get 'ecom:browsing_events',
+    'user_000001#8206599017123#sess_0000662118_0003'

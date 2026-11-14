@@ -1,0 +1,14 @@
+{
+    "total_sessions_processed": 2000000,
+    "sessions_with_carts": 799829,
+    "sessions_with_empty_or_missing_carts": 1200171,
+    "total_cart_items": 1399488,
+    "valid_product_ids_in_products_dataset": 5000,
+    "missing_product_ids": 0,
+    "unknown_product_ids": 0,
+    "missing_quantities": 0,
+    "invalid_quantities": 0,
+    "missing_prices": 0,
+    "invalid_prices": 0,
+    "malformed_cart_items": 0
+}

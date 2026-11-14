@@ -1,0 +1,26 @@
+Validation check,Result
+Integrated products,5000
+Integrated customers,10000
+Integrated categories,25
+Product duplicate key groups,0
+Customer duplicate key groups,0
+Category duplicate key groups,0
+Products with missing product_id,0
+Customers with missing user_id,0
+Products matched to MongoDB sales,4757
+Products matched to HBase metrics,4757
+Customers matched to transactions,10000
+Customers matched to HBase browsing,10000
+Categories with transaction revenue,25
+Total product transaction revenue,877342592.99
+Total quantity sold,1752053.0
+Total HBase product views in exported sample,113860.0
+Total HBase cart additions in exported sample,63366.0
+Total customer spending,833567793.24
+Total customer transactions,500000.0
+Total customer browsing events,10301209.0
+Total customer sessions,2000000.0
+Negative product revenue rows,0
+Negative product quantities,0
+Negative customer spending rows,0
+Negative category revenue rows,0

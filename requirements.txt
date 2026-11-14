@@ -1,0 +1,9 @@
+﻿Faker
+happybase
+matplotlib
+numpy==2.5.4
+pandas==3.1.0
+pymongo==4.19.0
+pyspark==3.5.9
+seaborn==0.13.2
+jupyter==1.1.1

@@ -1,0 +1,17 @@
+{
+    "users": {
+        "total_records": 10000,
+        "duplicate_records": 0,
+        "missing_values": {}
+    },
+    "products": {
+        "total_records": 5000,
+        "duplicate_records": 0,
+        "missing_values": {}
+    },
+    "categories": {
+        "total_records": 25,
+        "duplicate_records": 0,
+        "missing_values": {}
+    }
+}

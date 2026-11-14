@@ -1,0 +1,39 @@
+{
+    "users": {
+        "record_count": 10000,
+        "unique_id_count": 10000,
+        "duplicate_id_count": 0,
+        "duplicate_id_examples": {},
+        "exact_duplicate_record_count": 0,
+        "missing_field_counts": {},
+        "invalid_value_counts": {}
+    },
+    "products": {
+        "record_count": 5000,
+        "unique_id_count": 5000,
+        "duplicate_id_count": 0,
+        "duplicate_id_examples": {},
+        "exact_duplicate_record_count": 0,
+        "missing_field_counts": {},
+        "invalid_value_counts": {}
+    },
+    "categories": {
+        "record_count": 25,
+        "unique_id_count": 25,
+        "duplicate_id_count": 0,
+        "duplicate_id_examples": {},
+        "exact_duplicate_record_count": 0,
+        "missing_field_counts": {},
+        "invalid_value_counts": {}
+    },
+    "transactions": {
+        "record_count": 500000,
+        "unique_id_count": 500000,
+        "duplicate_id_count": 0,
+        "duplicate_id_examples": {},
+        "exact_duplicate_record_count": 0,
+        "missing_field_counts": {},
+        "invalid_value_counts": {},
+        "invalid_json_lines": 0
+    }
+}

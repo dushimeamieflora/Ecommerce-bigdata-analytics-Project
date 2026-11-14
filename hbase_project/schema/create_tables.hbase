@@ -1,0 +1,11 @@
+# Create the ecom namespace
+create_namespace 'ecom'
+
+# Table 1: Individual user browsing events
+create 'ecom:browsing_events',
+  {NAME => 'event'},
+  {NAME => 'context'}
+
+# Table 2: Hourly product performance metrics
+create 'ecom:product_metrics',
+  {NAME => 'metrics'}

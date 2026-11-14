@@ -1,0 +1,29 @@
+
+# =====================================================
+# PRODUCT METRICS QUERIES
+# Table: ecom:product_metrics
+# Row key: product_id#date#hour
+# Column family: metrics
+# =====================================================
+
+# 1. Retrieve all available metrics for one product
+scan 'ecom:product_metrics', {
+  FILTER => "PrefixFilter('prod_000001#')"
+}
+
+# 2. Retrieve metrics for one product on a specific date
+scan 'ecom:product_metrics', {
+  STARTROW => 'prod_000001#2026-08-02#',
+  STOPROW  => 'prod_000001#2026-08-03#'
+}
+
+# 3. Retrieve one product's metrics for a specific hour
+get 'ecom:product_metrics', 'prod_000001#2026-08-02#13'
+
+# 4. Retrieve only the views and revenue metrics
+get 'ecom:product_metrics',
+    'prod_000001#2026-08-02#13',
+    {COLUMN => ['metrics:views', 'metrics:revenue']}
+
+# 5. Count all product metrics records
+count 'ecom:product_metrics'

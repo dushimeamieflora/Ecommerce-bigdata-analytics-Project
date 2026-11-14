@@ -1,0 +1,33 @@
+﻿# Python and local environments
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Regenerable large data and exports
+data/raw/
+data/processed/
+data/temp/
+results/integration/hbase_export/
+results/integration/mongodb_export/
+hbase_project/results/product_metrics_hourly.csv
+
+# Local Apache HBase installation (not project source code)
+/hbase/
+
+# Spark / Hadoop generated checksum files
+*.crc
+
+# Secrets and machine state
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local HBase ingestion checkpoint state
+hbase_project/checkpoints/
+
